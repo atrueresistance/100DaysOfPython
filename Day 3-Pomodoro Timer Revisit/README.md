@@ -19,7 +19,7 @@ It outputs the following in the console window, and then on windows plays a soun
 **Working Timer App**
 
 This works with input a bit. It was really cool to see how pycharm informed me of an easier way to do the if statement.
-Python I guess has what are called "chain" comparision operations. So instead of `if int(min) > 0 and int(min) <= 1440:` you can do this `if int(min) > 0 <= 1440:`.
+Python I guess has what are called "chain" comparison operations. So instead of `if int(min) > 0 and int(min) <= 1440:` you can do this `if int(min) > 0 <= 1440:`.
 Pretty cool thing to learn. 
 
 Timer Output
