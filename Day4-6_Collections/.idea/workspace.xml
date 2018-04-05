@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66440ae3-793a-4e4a-b109-450d10ce9032" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Day4-6_Collections/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Day4-6_Collections/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Day4-6_Collections/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,7 +19,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="learning.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="learning.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Day4-6_Collections/learning.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
@@ -26,6 +27,19 @@
               <folding>
                 <element signature="e#0#63#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Day4-6_Collections/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -46,6 +60,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/learning.py" />
+        <option value="$PROJECT_DIR$/../Day4-6_Collections/README.md" />
       </list>
     </option>
   </component>
@@ -371,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522890329175</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Day 4 and 5 on collections. Day 6 the target is to grab the https://github.com/pybites/100DaysOfCode/blob/master/LOG.md log and parse it and come up with the most common hashtags.">
+      <created>1522890350630</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1522890350630</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -421,6 +443,17 @@
           <folding>
             <element signature="e#0#63#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Day4-6_Collections/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
