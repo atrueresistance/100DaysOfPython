@@ -39,7 +39,7 @@ while True:
                     print("You are currently working on {} for {} hours. Start Time: {}".format(
                           item.billto, '{0:.2f}'.format(TimeMath(datetime.now(),item.starttime)), item.starttime))
                 else:
-                    print("You worked on {}  for {} hours. Start Time: {} End Time: {}".format(
+                    print("{}\t{}\t{}\t{}".format(
                           item.billto, '{0:.2f}'.format(item.hrsworked), item.starttime, item.endtime))
 
                 totalhrs += float(item.hrsworked)
