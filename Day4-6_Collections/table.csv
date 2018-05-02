@@ -1,0 +1,1161 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://assets-cdn.github.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/frameworks-8f281eb0a8d2308ceb36e714ba3c3aec.css" />
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/github-cec46cb7e4a6c4b4c35e2dac77b2196d.css" />
+  
+  
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/site-83dc1f7ebc9c7461fe1eab799b56c4c4.css" />
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>100DaysOfCode/LOG.md at master · pybites/100DaysOfCode · GitHub</title>
+    <meta name="description" content="GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 80 million projects.">
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta property="og:image" content="https://avatars0.githubusercontent.com/u/24620154?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="pybites/100DaysOfCode" /><meta property="og:url" content="https://github.com/pybites/100DaysOfCode" /><meta property="og:description" content="PyBites #100DaysOfCode" />
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  
+  <meta name="pjax-timeout" content="1000">
+  
+  <meta name="request-id" content="EF5E:7FC4:243AA2C:433D224:5ACBE85F" data-pjax-transient>
+
+
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="EF5E:7FC4:243AA2C:433D224:5ACBE85F" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" />
+<meta name="hydro-events-url" content="https://github.com/hydro_browser_events" />
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
+
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="NDUwZTNjY2RiMmNjOGM2ODEzYzg1NDMwMjlhNzFjYzRmYTkwZjI1MzY2MDZkYzhkMTRlNTQyYTQyZWIyZDA1MHx7InJlbW90ZV9hZGRyZXNzIjoiOTYuMi4yMTQuMTcyIiwicmVxdWVzdF9pZCI6IkVGNUU6N0ZDNDoyNDNBQTJDOjQzM0QyMjQ6NUFDQkU4NUYiLCJ0aW1lc3RhbXAiOjE1MjMzMTI3MzYsImhvc3QiOiJnaXRodWIuY29tIn0=">
+
+    <meta name="enabled-features" content="UNIVERSE_BANNER,FREE_TRIALS,MARKETPLACE_INSIGHTS,MARKETPLACE_SELF_SERVE,MARKETPLACE_INSIGHTS_CONVERSION_PERCENTAGES">
+
+  <meta name="html-safe-nonce" content="a4ee6b926abd007f8c5df4c800d6f8f0af8447c2">
+
+  <meta http-equiv="x-pjax-version" content="b2b37fc6af759019784f9b02db1e2b01">
+  
+
+      <link href="https://github.com/pybites/100DaysOfCode/commits/master.atom" rel="alternate" title="Recent Commits to 100DaysOfCode:master" type="application/atom+xml">
+
+  <meta name="description" content="PyBites #100DaysOfCode">
+  <meta name="go-import" content="github.com/pybites/100DaysOfCode git https://github.com/pybites/100DaysOfCode.git">
+
+  <meta name="octolytics-dimension-user_id" content="24620154" /><meta name="octolytics-dimension-user_login" content="pybites" /><meta name="octolytics-dimension-repository_id" content="86468780" /><meta name="octolytics-dimension-repository_nwo" content="pybites/100DaysOfCode" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="86468780" /><meta name="octolytics-dimension-repository_network_root_nwo" content="pybites/100DaysOfCode" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+
+
+    <link rel="canonical" href="https://github.com/pybites/100DaysOfCode/blob/master/LOG.md" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+
+<link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out env-production page-blob">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="px-2 py-4bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+        <header class="Header header-logged-out  position-relative f4 py-3" role="banner">
+  <div class="container-lg d-flex px-3">
+    <div class="d-flex flex-justify-between flex-items-center">
+      <a class="header-logo-invertocat my-0" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+        <svg height="32" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+      </a>
+
+    </div>
+
+    <div class="HeaderMenu HeaderMenu--bright d-flex flex-justify-between flex-auto">
+        <nav class="mt-0">
+          <ul class="d-flex list-style-none">
+              <li class="ml-2">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:features" data-selected-links="/features /features/project-management /features/code-review /features/project-management /features/integrations /features" href="/features">
+                  Features
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:business" data-selected-links="/business /business/security /business/customers /business" href="/business">
+                  Business
+</a>              </li>
+
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="/explore">
+                  Explore
+</a>              </li>
+
+              <li class="ml-4">
+                    <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:marketplace" data-selected-links=" /marketplace" href="/marketplace">
+                      Marketplace
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:pricing" data-selected-links="/pricing /pricing/developer /pricing/team /pricing/business-hosted /pricing/business-enterprise /pricing" href="/pricing">
+                  Pricing
+</a>              </li>
+          </ul>
+        </nav>
+
+      <div class="d-flex">
+          <div class="d-lg-flex flex-items-center mr-3">
+            <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" data-scoped-search-url="/pybites/100DaysOfCode/search" data-unscoped-search-url="/search" action="/pybites/100DaysOfCode/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+    <label class="form-control header-search-wrapper  js-chromeless-input-container">
+        <a class="header-search-scope no-underline" href="/pybites/100DaysOfCode/blob/master/LOG.md">This repository</a>
+      <input type="text"
+        class="form-control header-search-input  js-site-search-focus js-site-search-field is-clearable"
+        data-hotkey="s,/"
+        name="q"
+        value=""
+        placeholder="Search"
+        aria-label="Search this repository"
+        data-unscoped-placeholder="Search GitHub"
+        data-scoped-placeholder="Search"
+        autocapitalize="off"
+        >
+        <input type="hidden" class="js-site-search-type-field" name="type" >
+    </label>
+</form></div>
+
+          </div>
+
+        <span class="d-inline-block">
+            <div class="HeaderNavlink px-0 py-2 m-0">
+              <a class="text-bold text-white no-underline" href="/login?return_to=%2Fpybites%2F100DaysOfCode%2Fblob%2Fmaster%2FLOG.md" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+                <span class="text-gray">or</span>
+                <a class="text-bold text-white no-underline" href="/join?source=header-repo" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+            </div>
+        </span>
+      </div>
+    </div>
+  </div>
+</header>
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+
+  <div role="main" class="application-main ">
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <div id="js-repo-pjax-container" data-pjax-container >
+      
+
+
+
+
+
+
+
+  <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav  ">
+    <div class="repohead-details-container clearfix container">
+
+      <ul class="pagehead-actions">
+  <li>
+      <a href="/login?return_to=%2Fpybites%2F100DaysOfCode"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <svg class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+    Watch
+  </a>
+  <a class="social-count" href="/pybites/100DaysOfCode/watchers"
+     aria-label="26 users are watching this repository">
+    26
+  </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fpybites%2F100DaysOfCode"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <svg class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"/></svg>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/pybites/100DaysOfCode/stargazers"
+      aria-label="218 users starred this repository">
+      218
+    </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fpybites%2F100DaysOfCode"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <svg class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+        Fork
+      </a>
+
+    <a href="/pybites/100DaysOfCode/network" class="social-count"
+       aria-label="75 users forked this repository">
+      75
+    </a>
+  </li>
+</ul>
+
+      <h1 class="public ">
+  <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <span class="author" itemprop="author"><a class="url fn" rel="author" href="/pybites">pybites</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/pybites/100DaysOfCode">100DaysOfCode</a></strong>
+
+</h1>
+
+    </div>
+    
+<nav class="reponav js-repo-nav js-sidenav-container-pjax container"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /pybites/100DaysOfCode" href="/pybites/100DaysOfCode">
+      <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /pybites/100DaysOfCode/issues" href="/pybites/100DaysOfCode/issues">
+        <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">1</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /pybites/100DaysOfCode/pulls" href="/pybites/100DaysOfCode/pulls">
+      <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">1</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /pybites/100DaysOfCode/projects" href="/pybites/100DaysOfCode/projects">
+      <svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      Projects
+      <span class="Counter" >0</span>
+</a>
+
+
+  <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse /pybites/100DaysOfCode/pulse" href="/pybites/100DaysOfCode/pulse">
+    <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
+    Insights
+</a>
+
+</nav>
+
+
+  </div>
+
+<div class="container new-discussion-timeline experiment-repo-nav  ">
+  <div class="repository-content ">
+
+    
+  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/pybites/100DaysOfCode/blob/53470134ee284d81b40d1e211fbf9f81027e3ba3/LOG.md">Permalink</a>
+
+  <!-- blob contrib key: blob_contributors:v21:4023228a0303641cd865a0aa27bdc9f0 -->
+
+  <div class="file-navigation">
+    
+<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left">
+  <button class=" btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    
+    type="button" aria-label="Switch branches or tags" aria-expanded="false" aria-haspopup="true">
+      <i>Branch:</i>
+      <span class="js-select-button css-truncate-target">master</span>
+  </button>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <svg class="octicon octicon-x js-menu-close" role="img" aria-label="Close" viewBox="0 0 12 16" version="1.1" width="12" height="16"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+        <span class="select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/pybites/100DaysOfCode/blob/master/LOG.md"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                master
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+    <div class="BtnGroup float-right">
+      <a href="/pybites/100DaysOfCode/find/master"
+            class="js-pjax-capture-input btn btn-sm BtnGroup-item"
+            data-pjax
+            data-hotkey="t">
+        Find file
+      </a>
+      <clipboard-copy
+            for="blob-path"
+            aria-label="Copy file path to clipboard"
+            class="btn btn-sm BtnGroup-item tooltipped tooltipped-s"
+            copied-label="Copied!">
+        Copy path
+      </clipboard-copy>
+    </div>
+    <div id="blob-path" class="breadcrumb">
+      <span class="repo-root js-repo-root"><span class="js-path-segment"><a data-pjax="true" href="/pybites/100DaysOfCode"><span>100DaysOfCode</span></a></span></span><span class="separator">/</span><strong class="final-path">LOG.md</strong>
+    </div>
+  </div>
+
+
+  <include-fragment src="/pybites/100DaysOfCode/contributors/master/LOG.md" class="commit-tease">
+    <div>
+      Fetching contributors&hellip;
+    </div>
+
+    <div class="commit-tease-contributors">
+      <img alt="" class="loader-loading float-left" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" height="16" />
+      <span class="loader-error">Cannot retrieve contributors at this time</span>
+    </div>
+</include-fragment>
+
+  <div class="file">
+    <div class="file-header">
+  <div class="file-actions">
+
+    <div class="BtnGroup">
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/pybites/100DaysOfCode/raw/master/LOG.md">Raw</a>
+        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/pybites/100DaysOfCode/blame/master/LOG.md">Blame</a>
+      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/pybites/100DaysOfCode/commits/master/LOG.md">History</a>
+    </div>
+
+
+        <button type="button" class="btn-octicon disabled tooltipped tooltipped-nw"
+          aria-label="You must be signed in to make or propose changes">
+          <svg class="octicon octicon-pencil" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
+        </button>
+        <button type="button" class="btn-octicon btn-octicon-danger disabled tooltipped tooltipped-nw"
+          aria-label="You must be signed in to make or propose changes">
+          <svg class="octicon octicon-trashcan" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
+        </button>
+  </div>
+
+  <div class="file-info">
+      105 lines (103 sloc)
+      <span class="file-info-divider"></span>
+    25 KB
+  </div>
+</div>
+
+    
+  <div id="readme" class="readme blob instapaper_body">
+    <article class="markdown-body entry-content" itemprop="text"><h2><a id="user-content-progress-log" class="anchor" aria-hidden="true" href="#progress-log"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Progress Log</h2>
+<table>
+<thead>
+<tr>
+<th>Day</th>
+<th>Date</th>
+<th>Created</th>
+<th>Learned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>001</td>
+<td>Mar 30, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/001">script to check if tip already submitted to @python_tip</a></td>
+<td>Urlopen, 2vs3, csv parsing, namedtuples, contextlib</td>
+</tr>
+<tr>
+<td>002</td>
+<td>Mar 31, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/002">script to print out valid IPs of a specified user specified network</a></td>
+<td>ipaddress, simplifying and automating tedious/manual process</td>
+</tr>
+<tr>
+<td>003</td>
+<td>Apr 01, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/003">script to generate a gif from various png/jpg images</a></td>
+<td>useful for blog, awesome: pip install imageio, cli arg interface is more code :)</td>
+</tr>
+<tr>
+<td>004</td>
+<td>Apr 02, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/004">script that converts a text list to a text string</a></td>
+<td>useful for tedious sysadmin tasks. Pyperclip is used to read in a list copied to clipboard and convert it to a single line string separated by spaces.</td>
+</tr>
+<tr>
+<td>005</td>
+<td>Apr 03, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/005">script to create a 100DaysOfCode tweet</a></td>
+<td>takes a date or defaults to today, reads this LOG file in and creates a tweet about our progress (to be automated)</td>
+</tr>
+<tr>
+<td>006</td>
+<td>Apr 04, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/006">simple reusable code snippet to print a dict</a></td>
+<td>reusable code snippet to print the keys and values of a dict. Includes a demo dict. Short and sweet.</td>
+</tr>
+<tr>
+<td>007</td>
+<td>Apr 05, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/007">script to automatically tweet 100DayOfCode progress tweet</a></td>
+<td>twitter API, manage config outside source, logging, date parsing and timezones</td>
+</tr>
+<tr>
+<td>008</td>
+<td>Apr 06, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/008">reusable python flask html template for printing a dict</a></td>
+<td>reusable python flask html template that uses a for loop to print dict contents - flask</td>
+</tr>
+<tr>
+<td>009</td>
+<td>Apr 07, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/009">interactive script to create a new Pelican blog article</a></td>
+<td>lot of known concepts, but nice to bring a lot of functionality together, and above all a really useful script for our blog</td>
+</tr>
+<tr>
+<td>010</td>
+<td>Apr 08, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/010">script to spot cheap @transavia flights using their #API</a></td>
+<td>this was a nice exercise, and a very useful script for a monitoring cron job. TODO: wrap it in a Flask web app. Some modules I explored: calendar, datetime, dateutil.relativedelta, requests_cache</td>
+</tr>
+<tr>
+<td>011</td>
+<td>Apr 09, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/011">generic script to email the contents of a text file</a></td>
+<td>a script that uses your gmail account to email the contents of a text file. Current use case is to email web scraped data. smtplib, email, MIME</td>
+</tr>
+<tr>
+<td>012</td>
+<td>Apr 10, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/012">using OpenWeatherMap #API to compare weather in Australia vs Spain</a></td>
+<td>OpenWeatherMap API, pytz for timezone handling, datetime.utcfromtimestamp to parse unix timestamp to datetime, Google confirms sunset / sunrise times correct :)</td>
+</tr>
+<tr>
+<td>013</td>
+<td>Apr 11, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/013">simple #Flask app to compare weather of 2 cities (using OpenWeatherMap #API)</a></td>
+<td>This was a nice follow-up of 012, making it more generic (support any city), using Jinja templating, Flask form handling, and of course a good chunk of timezone handling (for sunset and sunrise)</td>
+</tr>
+<tr>
+<td>014</td>
+<td>Apr 12, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/014">script to automatically tweet out new @lynda (#Python) titles</a></td>
+<td>feedparser is awesome. Want to run it with filter on Python. Abstracted twitter config away in repo's common dir (re-use).</td>
+</tr>
+<tr>
+<td>015</td>
+<td>Apr 13, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/015">script to calculate the number of posts on @pybites</a></td>
+<td>small script but some interesting things: urllib.request.urlretrieve (stdlib), test and cache option (using os.start for cache file age), re.findall, dict comprehension.</td>
+</tr>
+<tr>
+<td>016</td>
+<td>Apr 14, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/016">script to #ssh to specified IPs and check their hostnames</a></td>
+<td>Generic script to ssh to a list of IPs and run a command using paramiko. This can obviously  be altered for many purposes, not just hostname checks. The code is quite flexible.</td>
+</tr>
+<tr>
+<td>017</td>
+<td>Apr 15, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/017">script to automatically tweet out new @safari Python titles</a></td>
+<td>like the Lynda one, parsing an RSS feed, but only stdlib, so no feedparser, using xml.etree.ElementTree, no requests, using urllib. Also nice exercise converting and calculating with datetime / timedelta</td>
+</tr>
+<tr>
+<td>018</td>
+<td>Apr 16, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/018">using #pytest to write tests for @safari RSS scraper (day 017)</a></td>
+<td>testing is a good skill to keep honing. It lets you define your design better and look for edge cases that saves debug headaches later on. pytest is nice, to be further explored ...</td>
+</tr>
+<tr>
+<td>019</td>
+<td>Apr 17, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/019">paste in a list of numbers from the clipboard, sort to ascending then copy back to clipboard @AlSweigart #pyperclip #script</a></td>
+<td>simple yet useful script to read in a list of numbers from the clipboard, sort them into ascending order then copy the sorted list back to clipboard. Numbers need to initally be copied with a new line between them</td>
+</tr>
+<tr>
+<td>020</td>
+<td>Apr 18, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/020">monitor #Twitter and post to #slack each time our domain gets mentioned</a></td>
+<td>useful script and exercise. Twitter + Slack API combined == awesome. Aim was to clone/ replace mediatrigger.io (got bothered free trial will end one day ...)</td>
+</tr>
+<tr>
+<td>021</td>
+<td>Apr 19, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/021">script to make an index of modules used for this challenge (stdlib &gt;50%)</a></td>
+<td>collections (defaultdict, Counter), os.path, regex, glob, os.listdir, is_std_lib function (from SO), f-strings. Nice to see we heavily use stdlib, Python == batteries included</td>
+</tr>
+<tr>
+<td>022</td>
+<td>Apr 20, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/022">create and paste #Amazon affiliation link to clipboard #pyperclip @AlSweigart</a></td>
+<td>nice little utility to copy an take Amazon link from clipboard, convert it into an affiliation link and paste it back to clipboard</td>
+</tr>
+<tr>
+<td>023</td>
+<td>Apr 21, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/023">use Counter to count the most common words in a file</a></td>
+<td>we did some time ago, collections module is awesome</td>
+</tr>
+<tr>
+<td>024</td>
+<td>Apr 22, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/024">generate color hex codes from random RGBs and color terminal text</a></td>
+<td>nice play with generators, RGB to hex with format, and colorizing the terminal with the <a href="https://pypi.python.org/pypi/colored" rel="nofollow">colored</a> package. This could be useful for future cli apps</td>
+</tr>
+<tr>
+<td>025</td>
+<td>Apr 23, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/025">Simple test #database generator script #python #sqlite #contextmanager</a></td>
+<td>Script to generate a quick, test sqlite3 database with 1 table and 3 columns. Can be customised and expanded to suit your needs. Definitely useful for playing around with persistent data.</td>
+</tr>
+<tr>
+<td>026</td>
+<td>Apr 24, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/026">Simple script to retrieve #movie data from OMDb #API</a></td>
+<td>Get OMDB for movie data, query API by IMDB ID or title. Returns text or html. Uses request_cache to limit repeated calls to API. Could help some folks taking this <a href="https://pybit.es/codechallenge16.html" rel="nofollow">this week's challenge</a></td>
+</tr>
+<tr>
+<td>027</td>
+<td>Apr 25, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/027">rough script to query the #warcraft #API for a character's mounts</a></td>
+<td>A VERY rough and simple script to query the World of Warcraft API and pull the collected mounts of a specific character. Lots of room to expand this with stripping of JSON data and specifying which data to pull. Just some fun with a new and unconmmon API!</td>
+</tr>
+<tr>
+<td>028</td>
+<td>Apr 26, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/028">Jupyter notebook to plot and list new #Python titles on @safari by month</a></td>
+<td>Learning: parsing a Twitter CSV backup dump (@newsafaribooks account), matplotlib, collections, hacking iPython css</td>
+</tr>
+<tr>
+<td>029</td>
+<td>Apr 27, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/029">Traffic Lights script to demo #itertools cycle</a></td>
+<td>A nice and easy script to simulate traffic lights using <code>itertools.cycle</code> and other stdlib modules cycle. Itertools rocks!</td>
+</tr>
+<tr>
+<td>030</td>
+<td>Apr 28, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/030">Script to import movie csv file into an sqlite database</a></td>
+<td>sqlite3, csv, nice groundwork for Flask auto-complete I am working on</td>
+</tr>
+<tr>
+<td>031</td>
+<td>Apr 29, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/031">Simple and reusable #Python #script to move all files from one folder to another</a></td>
+<td>A simple but useful script to move all files from one diretory to another using shutil and os. Currently using this in a cron job to mv server log files into an archive folder to keep the log dir clean.</td>
+</tr>
+<tr>
+<td>032</td>
+<td>Apr 30, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/032">#Flask #jQuery movie autocomplete</a></td>
+<td>Used DB of day 30. Learned Jinja template extending / inheritance. Nice plugin for mixing Flask/JS: Flask-JSGlue. TODO: upon select movie direct to page showing movie info.</td>
+</tr>
+<tr>
+<td>033</td>
+<td>May 01, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/033">I need to drink more water at work so I wrote a #Python #script to remind (spam) me every hour</a></td>
+<td>A simple script using MIME and a cron job (read the readme.txt) to remind me to drink more water at work! Doesn't email on the weekends or before/after hours. Over the top? Maybe. Satisfying? Hell yes.</td>
+</tr>
+<tr>
+<td>034</td>
+<td>May 02, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/034">Import a #podcast feed into a DB table with #SQLAlchemy</a></td>
+<td>Part of the this week's code challenge solution. Found it useful enough to extract this bit as separate nudget</td>
+</tr>
+<tr>
+<td>035</td>
+<td>May 03, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/035">Text replacer script using #pyperclip by @AlSweigart</a></td>
+<td>A simple script that will replace any text or characters in text that you have copied to the clipboard. Check out the readme.txt file for more detail.</td>
+</tr>
+<tr>
+<td>036</td>
+<td>May 04, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/036">Use #Python #pickle to store and retrieve a defaultdict</a></td>
+<td>Nice and easy persistence tool. Using it with context manager to write random log entries. Each time the script is run the data pickle file gets updates. To get random entries I used a generator.</td>
+</tr>
+<tr>
+<td>037</td>
+<td>May 05, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/037">#Python script to pull down an #XML feed and save it</a></td>
+<td>This is an extremely simple script that uses the requests module to pull down an XML feed and write it as is to your local disk for later use by a scraper etc. Created while working on <a href="https://pybit.es/codechallenge17.html" rel="nofollow">PCC17</a></td>
+</tr>
+<tr>
+<td>038</td>
+<td>May 06, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/038">Simple #Twitter login for your #Flask app using flask_oauthlib</a></td>
+<td>This was a nice addition to <a href="https://pybit.es/codechallenge16_review.html" rel="nofollow">myreadinglist app</a>: easy authentication flow. Also want to leverage it to show recommended books from followers of the Twitter logged in user.</td>
+</tr>
+<tr>
+<td>039</td>
+<td>May 07, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/039">#Python script to give you every valid dictionary match of a specified letter sequence</a></td>
+<td>A script that uses itertools permutations to check whether a user specified sequence of letters (could be a word!) can be used to make a word or words from the English dictionary.</td>
+</tr>
+<tr>
+<td>040</td>
+<td>May 08, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/040">PyBites podcast challenge 17 in less than 100 LOC using #scheduler and #shelve</a></td>
+<td>Rewriting a script with different modules (originally we used SQLAlchemy/SQlite) and with LOC constraint, was fun</td>
+</tr>
+<tr>
+<td>041</td>
+<td>May 09, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/041">Script to check all possible combinations of letters and match against a dictionary. Great for #scrabble</a></td>
+<td>Similar to day 039 but this time it checks all combinations of letters of all lengths, not just the length of the given string. It's a great way to ruin a game of Words with Friends!</td>
+</tr>
+<tr>
+<td>042</td>
+<td>May 10, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/042">Using #Python icalendar module to parse FB birthdays cal (ics file)</a></td>
+<td>Prework to download all birthdays into a Flask SQLAlchemy app</td>
+</tr>
+<tr>
+<td>043</td>
+<td>May 11, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/043">Script to read in a list and reverse its contents</a></td>
+<td>I thought it'd be fun to see if I could read in a list of excel cells and reverse their order then paste them out. It's not perfect but it works!</td>
+</tr>
+<tr>
+<td>044</td>
+<td>May 12, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/044">Random name generator, reading in a bunch of names from a CSV file</a></td>
+<td>I used this for Flask SQLAlchemy birthday app to anonymize the data (real dates, fake names), csv source <a href="https://raw.githubusercontent.com/yorkshiretwist/WTester/master/WTester/Helpers/CSV_Database_of_First_Names.csv" rel="nofollow">here</a> (TODO: could use faker module)</td>
+</tr>
+<tr>
+<td>045</td>
+<td>May 13, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/045">#steam XML feed scraper for new #game releases</a></td>
+<td>A simple script to parse the Steam XML feed for new game releases. Script will store the title and URL data in an SQLite DB. Readme.txt for more info.</td>
+</tr>
+<tr>
+<td>046</td>
+<td>May 14, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/046">Get friends updates from Goodreads #API #books</a></td>
+<td>Base work for this week's challenge 18 to get book recommendations from Goodreads (requires oauth)</td>
+</tr>
+<tr>
+<td>047</td>
+<td>May 15, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/047">Customisable script for pulling down XML feeds with a cron job</a></td>
+<td>This is the accompanying script for <a href="https://github.com/pybites/100DaysOfCode/tree/master/045">Day 045</a> to automate the pull of the XML feed. It uses requests and a cron job.</td>
+</tr>
+<tr>
+<td>048</td>
+<td>May 16, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/048">Use the Faker module to get (random) fake Dutch names</a></td>
+<td>Refactored <a href="/pybites/100DaysOfCode/blob/master/044">random name generator of day 44</a> = much less LOC, and you can specify a "localized provider" to get names in a particular language, very cool. Reminder to self: don't re-invent the wheel, use PyPI more!</td>
+</tr>
+<tr>
+<td>049</td>
+<td>May 17, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/049">Email contents of an #sqlite db</a></td>
+<td>Code snippet to email data from an sqlite db then flag the data as Emailed to avoid sending it multiple times. Handy for an emailer service.</td>
+</tr>
+<tr>
+<td>050</td>
+<td>May 18, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/050">Use folium to draw a map with cities I traveled to</a></td>
+<td>Folium is awesome and easy to use, definitely will use it for more stuff later on (as well as Bokeh)</td>
+</tr>
+<tr>
+<td>051</td>
+<td>May 19, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/051">Use #Python #requests module on a page behind a login</a></td>
+<td>Wrote a quick script to pull web page data from a page behind a login. In this example I pull my post data from freecycle.org. Will write a detailed post about it this week.</td>
+</tr>
+<tr>
+<td>052</td>
+<td>May 20, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/052">Build a user focused REPL with prompt_toolkit (source @amjithr)</a></td>
+<td>Code from PyCon2017 <a href="https://speakerdeck.com/amjith/awesome-commandline-tools" rel="nofollow">Awesome Commandline tools session</a></td>
+</tr>
+<tr>
+<td>053</td>
+<td>May 21, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/053">Script to start automating posting to our PyBites FB group</a></td>
+<td>Also 'a' possible solution for challenge 19 of this week</td>
+</tr>
+<tr>
+<td>054</td>
+<td>May 22, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/054">Script to create a person #class and calculate BMI</a></td>
+<td>A simple script to demo basic Python Classes. It calculates the BMI of an individual</td>
+</tr>
+<tr>
+<td>055</td>
+<td>May 23, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/055">Parse/store #PyCon2017 talks meta data in DB - #BeautifulSoup #sqlite</a></td>
+<td>Fun little exercise to get an index of PyCon talk meta data and load them into a sqlite DB to query them and what not</td>
+</tr>
+<tr>
+<td>056</td>
+<td>May 24, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/056">#Python #Flask BMI calculator</a></td>
+<td>A quick but useful BMI calculator created with Python Flask. Will have to run this on Heroku just for the experience!</td>
+</tr>
+<tr>
+<td>057</td>
+<td>May 25, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/057">Using the #YouTube #API to determine most popular #PyCon2017 talks</a></td>
+<td>PyCon videos watch / like stats = nice to know, but also   data prep to maybe do some data visualization with Bokeh</td>
+</tr>
+<tr>
+<td>058</td>
+<td>May 26, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/058">Playing with OOP and dunder methods in Python</a></td>
+<td>Some practice / example code because this week we have an OOP challenge</td>
+</tr>
+<tr>
+<td>059</td>
+<td>May 27, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/059">Using the #Twilio #API to send SMS messages</a></td>
+<td>Prework for another app where I want to use Twilio to send reminder notification and text friends :)</td>
+</tr>
+<tr>
+<td>060</td>
+<td>May 28, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/060">#Python #Flask Pay Calculator using a session object</a></td>
+<td>A simple pay calculator (wage x hours) that demos the use of a Flask Session object so the wage is remembered throughout the session. Very cool stuff!</td>
+</tr>
+<tr>
+<td>061</td>
+<td>May 29, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/061">Plan your next book read using the @twilio SMS API (cc @mattmakai)</a></td>
+<td>Fun exercise for our <a href="https://pybit.es/codechallenge20.html" rel="nofollow">OOP challenge (#20)</a> using the Twilio API for SMS, click for nice and easy command line argument handling, pytest for testing, and schedule for cron. Using this live now to facilitate a 'reading date' with some friends. They get weekly task lists / goals via SMS, lets see if they read more thanks to this script :)</td>
+</tr>
+<tr>
+<td>062</td>
+<td>May 30, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/062">#Python #Flask friends list with #sqlite db</a></td>
+<td>Essentially an address book to track friends with. It utilises sqlite3 for a persistent DB and was particularly tricky to make as it creates a pull down menu for you to select which friend to view! Need to improve the handling of people with the same name though.</td>
+</tr>
+<tr>
+<td>063</td>
+<td>May 31, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/063">Coding an account class using properties, dunders and pytest</a></td>
+<td>Good exercise to explore properties (for today's article) and alo did some magic method goodness to deposit/withdraw amounts from account.</td>
+</tr>
+<tr>
+<td>064</td>
+<td>Jun 01, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/064">Prework code challenge #21: ApplianceCost class to calc energy cost</a></td>
+<td>This will be the data model for a simple flask app to calculate cost per appliance given minutes consumption in period, also want to give a dropdown of energy prices per country. This will be fun</td>
+</tr>
+<tr>
+<td>065</td>
+<td>Jun 02, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/065">Use #Python #webbrowser to simplify #Flask testing</a></td>
+<td>Just a nifty little snippet I use to make testing my Flask apps one step easier and faster. Use the webbrowser module to save you time opening and refreshing your Flask app after every code change</td>
+</tr>
+<tr>
+<td>066</td>
+<td>Jun 03, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/066">Use Selenium to login to a site and show content</a></td>
+<td>Work in progress: trying to login to Packt and show ebooks and maybe even make a download manager.</td>
+</tr>
+<tr>
+<td>067</td>
+<td>Jun 04, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/067">#Python script to pull a random entry from an #sqlite db</a></td>
+<td>A script that pulls a random movie from an sqlite db of movies. Just to demo the random pull procedure.</td>
+</tr>
+<tr>
+<td>068</td>
+<td>Jun 05, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/068">@mohhinder translated our 'from PyBites import newsletter' into code</a></td>
+<td>In his own words: Written on iPhone with the Pythonista 3 app as a joke for the PyBites guys, I don't see why it wouldn't work anywhere else though. They always start off their newsletter annoucements with: <code>from @PyBites import newsletter</code>, so I turned it into actual code that pulls their feed and opens their latest newsletter in a browser :) - original <a href="https://gist.github.com/clamytoe/f302c8b042341deb48bab4f3b7645198">source</a> and <a href="https://twitter.com/mohhinder/status/870208685523456000" rel="nofollow">tweet</a></td>
+</tr>
+<tr>
+<td>069</td>
+<td>Jun 06, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/069">#Python CLI based #Pomodoro Timer with #webbrowser alarm</a></td>
+<td>Very simple Pomodoro Script I made for myself that launches an alarm tone on YouTube (using the Python webbrowser module) when the time is up.</td>
+</tr>
+<tr>
+<td>070</td>
+<td>Jun 07, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/070">How to parse html tables with #pandas (#jupyter notebook)</a></td>
+<td>Prep work for tomorrow's article where I will show you how Pandas can relieve the pain of parsing nasty html tables</td>
+</tr>
+<tr>
+<td>071</td>
+<td>Jun 08, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/071">How to calculate the # of days between two dates #Python #datetime</a></td>
+<td>Simple CLI script to calculate the number of days between two dates. It uses datetime and dateutils to do this. Still need to strip out the timestamp in the final output though. Maybe a regex? Needs investigation.</td>
+</tr>
+<tr>
+<td>072</td>
+<td>Jun 09, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/072">Packt ebook download manager</a></td>
+<td>Using requests to login to Packt, BeautifulSoup to parse the account/ebooks page for links, letting user download his/her books via interactive script</td>
+</tr>
+<tr>
+<td>073</td>
+<td>Jun 10, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/073">#Python script to download a file using #FTP</a></td>
+<td>A simple and quick script to download a file from an FTP server using ftplib. Would ideally be matched with a cron job.</td>
+</tr>
+<tr>
+<td>074</td>
+<td>Jun 11, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/074">Using Pillow to add text and opacity to an image = your own cards</a></td>
+<td>Played with the Pillow module. Script to let user enter an image path (or url) and text to put on the image. Pillow does the rest. Could be a useful recipe to make your own Birthday cards :)</td>
+</tr>
+<tr>
+<td>075</td>
+<td>Jun 12, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/075">#Python script to take screenshots using #pyscreeze @AlSweigart</a></td>
+<td>A Simple script that uses PyScreeze (written by Al Sweigart) to take a screenshot. Handy for any code that may require a screenshot to be taken. Also includes code to allow you to change dirs to save the screenshot somewhere else.</td>
+</tr>
+<tr>
+<td>076</td>
+<td>Jun 13, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/076">Script to scrape Packt free ebook site and send html notification mail</a></td>
+<td>Using requests, BeautifulSoup, namedtuple, datetime. Cronjob script to send out a nice html email with image and metadata of the book, and how long till free offer expires. As it's <a href="https://github.com/igbt6/Packt-Publishing-Free-Learning/issues/51">hard to automate this now with the new captcha</a> at least we get notified about each new title.</td>
+</tr>
+<tr>
+<td>077</td>
+<td>Jun 14, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/077">Blank template of a #Python #class and #subclass</a></td>
+<td>A blank template I created that shows the framework of a Python Class and Subclass. Easy to just copy and customise.</td>
+</tr>
+<tr>
+<td>078</td>
+<td>Jun 15, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/078">Use a context manager to rollback a transaction</a></td>
+<td>An example for the use of the with statement = resource management.</td>
+</tr>
+<tr>
+<td>079</td>
+<td>Jun 16, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/079">#Python script to capture exceptions when creating an #sqlite db</a></td>
+<td>A simple but useful script I use to create an sqlite db and check to see if it exists on subsequent runs. The use of <code>exception</code> allows me to capture any other errors too.</td>
+</tr>
+<tr>
+<td>080</td>
+<td>Jun 17, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/080">"Is this Bob or Julian?" - script to reveal who of @pybites tweets</a></td>
+<td>Fun little exercise that started with <a href="https://twitter.com/anthonypjshaw/status/875275923930480641" rel="nofollow">Anthony Shaw asking who he was talking to</a> - it actually became more involved turning/testing out location on our tweets and adding exception handling ... nice practice! (and a funny new service for our PyBites community)</td>
+</tr>
+<tr>
+<td>081</td>
+<td>Jun 18, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/081">Using unittest mock patch to test Tweepy code without calling the API</a></td>
+<td>I took my code of day 80 and wrote tests for it. But as it involves an API we don't want to call it and depend on the network. So you can use the mock patch decorator. I did have to save some test data (cache decorator in main script), but once that was done, it was pretty easy. <a href="https://github.com/bbelderbos/quotes_on_design">Here</a> is another Twitter API mock I did some time ago</td>
+</tr>
+<tr>
+<td>082</td>
+<td>Jun 19, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/082">#Python script to list all #timezones and their current time</a></td>
+<td>Simple script using pytz and Pendulum to print a list of every timezone as well as the associated CURRENT time.</td>
+</tr>
+<tr>
+<td>083</td>
+<td>Jun 20, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/083">#Python #Flask app to print the current time in a given timezone</a></td>
+<td>Useful and cool little Flask app to print the current time for a timezone selected from a drop down menu. Does it exist already? Of course! But so satisfying to make it yourself!</td>
+</tr>
+<tr>
+<td>084</td>
+<td>Jun 21, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/084">Use PyGithub to retrieve some basic stats for a GH user</a></td>
+<td>Conclusion: PyGithub makes it really easy to work with the GH API</td>
+</tr>
+<tr>
+<td>085</td>
+<td>Jun 22, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/085">#Python script to list out the current exchange rate</a></td>
+<td>Script that uses the openexchangerates.org API to pull and print a list of the current exchange rate relative to US$1</td>
+</tr>
+<tr>
+<td>086</td>
+<td>Jun 23, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/086">Script to pull some quick stats from a #Twitter Archive CSV</a></td>
+<td>Using Counter and csv.Dictreader. Simple exercise, yet useful data. You can run it yourself downloading your Twitter Archive in Settings</td>
+</tr>
+<tr>
+<td>087</td>
+<td>Jun 24, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/087">Currency Conversion script using openexchangerates API</a></td>
+<td>A basic but expensive script to convert one currency to another using the openexchangerates API. To use this you'll need an Unlimited subscription. TODO: do this myself using the free plan by performing math conversions myself.</td>
+</tr>
+<tr>
+<td>088</td>
+<td>Jun 25, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/088">Using #Slack Real Time Messaging #API to capture all messages</a></td>
+<td>Groundwork for our new <a href="https://github.com/pybites/karmabot">karmabot</a> project.</td>
+</tr>
+<tr>
+<td>089</td>
+<td>Jun 26, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/089">#Python #Flask overtime hours tracker. #sqlite</a></td>
+<td>I wrote a simple Flask app to track the overtime hours that I work. It uses an sqlite db and prints existing overtime data on the main page.</td>
+</tr>
+<tr>
+<td>090</td>
+<td>Jun 27, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/090">Playing with TheTVDB API to scrape some movies/series info</a></td>
+<td><a href="http://thetvdb.com" rel="nofollow">thetvdb</a>, various good wrappers pip installable - today's script lists episodes for a show</td>
+</tr>
+<tr>
+<td>091</td>
+<td>Jun 28, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/091">Showing the broadcasting network for a show using TheTVDB API</a></td>
+<td>More <a href="http://thetvdb.com" rel="nofollow">thetvdb</a> - I know from friends they need this lookup :)</td>
+</tr>
+<tr>
+<td>092</td>
+<td>Jun 29, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/092">#Python script to ping every IP on a specified #network</a></td>
+<td>A simple script that'll ping every IP on a user specified network. Uses the ipaddress and os modules.</td>
+</tr>
+<tr>
+<td>093</td>
+<td>Jun 30, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/093">Refactored day 86's Tweet Achive Stats script into a Package</a></td>
+<td>Modularized Twitter Archive script of <a href="/pybites/100DaysOfCode/blob/master/086">day 86</a> turning it into a package. This will serve our post of this week on packaging.</td>
+</tr>
+<tr>
+<td>094</td>
+<td>Jul 01, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/094">Simple Python script to #scp get a file from a remote host</a></td>
+<td>Script uses the Paramiko package and SCP to pull a log file from a remote host. Can be easily modified and expanded.</td>
+</tr>
+<tr>
+<td>095</td>
+<td>Jul 02, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/095">Class to cache moviedb API responses #shelve #decorator #namedtuple</a></td>
+<td>Part of challenge 25 solution where we query themoviedb API to get upcoming/now-playing movies or airing tv series to send out mail alerts</td>
+</tr>
+<tr>
+<td>096</td>
+<td>Jul 03, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/096">Script to measure which 100Days tweets were most successful (RTs / Favs)</a></td>
+<td>Using csv module to parse downloaded archive, tweepy to query status for each tweet, parsing out retweet_count and favorite_count. I add those up and sort the result descending on this combined number. Curious to see what our most popular tweets were ...</td>
+</tr>
+<tr>
+<td>097</td>
+<td>Jul 04, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/097">Create a default #Flask App dir structure for new projects</a></td>
+<td>Unpythonic and simple. A rough script I threw together that creates a basic Flask App directory structure (templates and static folder) with required base files. Will refactor this later but for now it works!</td>
+</tr>
+<tr>
+<td>098</td>
+<td>Jul 05, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/098">Script to use the #Instagram #API to authenticate and pull your media</a></td>
+<td>Experimentation with the Instagram API - hit some bugs which I documented in README, considering making my own wrapper ...</td>
+</tr>
+<tr>
+<td>099</td>
+<td>Jul 06, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/099">Simple #Flask app to display photos in a directory</a></td>
+<td>This is a very basic app to demonstrate displaying images using Flask and Jinja templates. All photos need to be stored in the "static" dir within the Flask folder structure. The glob module is used to parse the photo dir. The app can and will be expanded and refactored.</td>
+</tr>
+<tr>
+<td>100</td>
+<td>Jul 07, 2017</td>
+<td><a href="/pybites/100DaysOfCode/blob/master/100">100DaysOfCode done! 5K LOC!! Day #100 Special: a Histogram of LOC/day</a></td>
+<td>Glob through all our day directories, counting lines per python script. Then pip installed matplotlib and <a href="https://stackoverflow.com/questions/21195179/plot-a-histogram-from-a-dictionary" rel="nofollow">Plot a histogram from a Dictionary</a>, very easy to do with Python :) - see you for our next 100 Days PyBites Project / Challenge</td>
+</tr></tbody></table>
+</article>
+  </div>
+
+  </div>
+
+  <button type="button" data-facebox="#jump-to-line" data-facebox-class="linejump" data-hotkey="l" class="d-none">Jump to Line</button>
+  <div id="jump-to-line" style="display:none">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-jump-to-line-form" action="" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+      <input class="form-control linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line&hellip;" aria-label="Jump to line" autofocus>
+      <button type="submit" class="btn">Go</button>
+</form>  </div>
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+      
+<div class="footer container-lg px-3" role="contentinfo">
+  <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap ">
+      <li class="mr-3">&copy; 2018 <span title="0.14736s from unicorn-2777005987-mcl1x">GitHub</span>, Inc.</li>
+        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3"><a href="https://help.github.com/articles/github-security/" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li class="mr-3"><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon" href="https://github.com">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap ">
+        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+      <li class="mr-3"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li class="mr-3"><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to blog, text:blog" href="https://github.com/blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+    You can't perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/compat-413dd2a0695c3dfaf7de158468a91646.js"></script>
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/frameworks-4a55ab3fcf005abef1e8b859483f3cce.js"></script>
+    
+    <script crossorigin="anonymous" async="async" type="application/javascript" src="https://assets-cdn.github.com/assets/github-bb9389ddb48b82c0ab8aac117b804993.js"></script>
+    
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+  </div>
+</div>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+<div id="hovercard-aria-description" class="sr-only">
+  Press h to open a hovercard with more details.
+</div>
+
+
+  </body>
+</html>
+
