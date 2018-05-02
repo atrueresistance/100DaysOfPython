@@ -1,6 +1,6 @@
 from datetime import datetime
 from collections import namedtuple
-
+import os
 
 def TimeMath(endtime, starttime):
     tspan = endtime - starttime
@@ -13,7 +13,8 @@ print("Welcome to your time tracking app.")
 
 work_items = []
 while True:
-    print("Commands are 'x' to exit the program, 'c' to complete your current item, and 'l' to list the items.")
+    print("Commands are 'x' to exit the program, 'c' to complete your current item, 'l' to list the items, "
+          "and 'p' to print them to a file.")
     print("Please enter what your working on or a command")
     feedback = input()
     if feedback:
@@ -39,7 +40,8 @@ while True:
                     print("You are currently working on {} for {} hours. Start Time: {}".format(
                           item.billto, '{0:.2f}'.format(TimeMath(datetime.now(),item.starttime)), item.starttime))
                 else:
-                    print("{}\t{}\t{}\t{}".format(
+
+                    print("{: ^30s}{}\t{}\t{}".format(
                           item.billto, '{0:.2f}'.format(item.hrsworked), item.starttime, item.endtime))
 
                 totalhrs += float(item.hrsworked)
@@ -49,6 +51,15 @@ while True:
             print("Today your total hours put in through all activities was {} hours".format(
                                                                                         '{0:.2f}'.format(totalhrs)))
             print("")
+        if feedback == 'p':
+            print("Only do this at the end of the day, do you want to continue(Y)?")
+            con = input()
+            if con == 'y':
+                f = open("track.log", "a+")
+                for item in work_items:
+                    f.write("{}\t{}\t{}\t{}\r\n".format(
+                          item.billto, '{0:.2f}'.format(item.hrsworked), item.starttime, item.endtime))
+                f.close()
         if not work_items:
             work_items.append(work_item)
             print('OK, working on {0}'.format(feedback))
@@ -60,7 +71,7 @@ while True:
             if count > 0:
                 print('Your already working on something. Close that first.')
             else:
-                if feedback != 'x' and feedback != 'c' and feedback != 'l':
+                if feedback != 'x' and feedback != 'c' and feedback != 'l'and feedback != 'p':
                     work_items.append(work_item)
                     print('OK, working on {0}'.format(feedback))
 
